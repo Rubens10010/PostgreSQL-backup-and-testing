@@ -1,0 +1,3 @@
+0 0 * * * /home/user/backup_databases.sh
+0 0 * * 1 /home/user/test_database_backups.sh
+0 0 * * 1 pg_dumpall --globals-only -h 127.0.0.1 -U postgres > /home/user/bck_postgres_globals/pg_globals_`date +\%Y\%m\%d\%H\%M\%S`.sql
