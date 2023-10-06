@@ -1,6 +1,6 @@
 #!/bin/bash
 
-recipient_email=recipient@unsa.edu.pe
+recipient_email=recipient@gmail.com
 databases=("db1" "db2" "db3")
 paths=("bck_db1" "bck_db2" "bck_db3")
 
